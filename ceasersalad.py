@@ -27,7 +27,7 @@ def decrypt(n, ciphertext):
     return result
 
 text = input()
-offset = 5
+offset = 13
 
 encrypted = encrypt(offset, text)
 print('Encrypted:', encrypted)
