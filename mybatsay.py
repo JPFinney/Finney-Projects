@@ -10,8 +10,11 @@ def border_msg(msg):
 user = input("Sup playa?")
 print(border_msg(user))
 
-
-from batsay import *
-longstring
-
-
+longstring = r"""
+   (,_    ,_,    _,)
+  /|\`-._(*-*)_.-'/|\
+  / | \`-'/ \'-`/ | \
+ /__|.-'`-\_/-`'-.|__\
+  `                    `
+"""
+print(longstring)
